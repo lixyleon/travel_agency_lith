@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: #1f2937;
+    color:white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    display: flex; 
+    padding: 10px;
+    justify-content: space-between;
+   
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding: 5px;
+    margin: 20px;
+   
+}
+
+
+.section-one{
+    background-color: #1f2937;
+    color:white;
+    
+}
+.title{
+    padding: 10px ;
+}
