@@ -8,7 +8,7 @@ Home page of the LiTh travel agency. Created from image provided by The Odin Pro
 
 ## Live Demo
 
-[TRavel-agency]([https://livedemo.com](https://lixyleon.github.io/travel_agency_lith/))
+[Travel-agency](https://lixyleon.github.io/travel_agency_lith/)
 
 
 ## Getting Started
