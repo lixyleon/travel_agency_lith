@@ -11,33 +11,141 @@
     font-size: 14px;
     display: flex;
     justify-content: space-around;
-    height: 50px;
+    height: 5rem;
+    align-items: center;
     
 }
-
+.logo img{
+    width:5rem;
+    height: 100%;
+}
 a{
     text-decoration: none;
     color:white;
-    padding: 10px;
+    padding: 1rem;
 
 }
-.nav a:hover {
-    background: #1565C0;
+
+ h1{
+    font-size: 48px;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .container-one p{
+    font-size: 18px;
   }
 
 .section-one{
     background-color: #1f2937;
     color:white;
     display: flex;
+    justify-content: space-around;
     align-items: center;
+    gap:4rem;
 }
 
-.container-one .container-two{
-    width: 50%;
-    justify-content: center;
+.container-one {
+   margin:2rem;
+    
 }
 .section-one img{
-    width: 20%;
+   width:23rem;
+   margin:4rem;
+}
+.button-section-one{
+    background-color: #3882f6;
+    color:white;
+    font-size: 14px;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+.section-two{
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    padding: 2rem;
+}
+.container-section-two{
+    display:flex;
+    justify-content: space-around;
+}
+.container-destinations{
+    align-items: center;
+    font-family: sans-serif;
+    margin: 2rem;
+    justify-content: center;
+   
+}
+.container-destinations img{
+    max-width: 15rem;
+    border-radius: 0.5rem;
+    border: 5px solid #3882f6;
+    width: 100%;
+
+}
+
+.section-three{
+    background-color: #e5e7eb;
+    font-size:20px;
+    font-family: sans-serif;
+    color:#1f2937;
+    align-items: center;
+    height: 10rem;
+}
+
+.motivation{
+    text-align: center;
+    padding: 2rem;
+}
+
+.author{
+    text-align: end;
+    padding: 2rem;
+} 
+
+.section-four{
+    background-color: #3882f6;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin:5rem;
+    height: 5rem;
+    justify-content: center;
+    border-radius: 0.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph-section-four{
+    margin:1rem;
+}
+
+.button-section-four{
+    margin:1rem;
+    background-color: #3882f6;
+    border: 1px solid white;
+    color:white;
+    border-radius: 0.5rem;
+    font-size: 14px;
+    width: 8rem;
+    height: 2rem;
+   
+}
+
+footer{
+    background-color: #1f2937;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 100%;
+   
+
 }
 
 
