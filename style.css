@@ -9,25 +9,35 @@
     color:white;
     font-family: 'Nunito', sans-serif;
     font-size: 14px;
-    display: flex; 
-    padding: 10px;
-    justify-content: space-between;
-   
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    
 }
+
 a{
     text-decoration: none;
     color:white;
-    padding: 5px;
-    margin: 20px;
-   
-}
+    padding: 10px;
 
+}
+.nav a:hover {
+    background: #1565C0;
+  }
 
 .section-one{
     background-color: #1f2937;
     color:white;
-    
+    display: flex;
+    align-items: center;
 }
-.title{
-    padding: 10px ;
+
+.container-one .container-two{
+    width: 50%;
+    justify-content: center;
 }
+.section-one img{
+    width: 20%;
+}
+
+
